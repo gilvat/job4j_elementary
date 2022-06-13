@@ -14,7 +14,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax1To2Then1() {
+    public void whenMax3To2Then3() {
         int left = 3;
         int right = 2;
         int result = Max.max(left, right);
@@ -23,7 +23,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax1To2ThenEqual() {
+    public void whenMax2To2ThenEqual() {
         int left = 2;
         int right = 2;
         int result = Max.max(left, right);
