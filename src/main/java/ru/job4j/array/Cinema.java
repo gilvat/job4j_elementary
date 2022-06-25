@@ -1,7 +1,6 @@
 package ru.job4j.array;
 
-import java.util.Objects;
-
+/*
 public class Cinema {
     @SuppressWarnings("checkstyle:EmptyBlock")
     public static Place checkEmptyPlace(Place[][] places) {
@@ -11,8 +10,7 @@ public class Cinema {
                     if (places[0][0] == null && places[0][1] == null && places[1][0] == null) {   //*левый верхний угол
                         return places[i][j];
                     }
-                    if (places[0][j] == null && j < places[i].length && j > 0 && places[0][j - 1] == null && places[0][j + 1] == null && places[1][j] == null)
-                        ;
+                    if [places[0][j] == null && j < places[i].length && j > 0 && places[0][j - 1] == null && places[0][j + 1] == null && places[1][j] == null){
                 }
             }
         }
@@ -51,3 +49,4 @@ public class Cinema {
                 }
             }
         }
+*/
