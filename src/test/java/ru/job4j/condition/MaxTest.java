@@ -5,29 +5,36 @@ import org.junit.Test;
 
 public class MaxTest {
     @Test
-    public void whenMax1To2Then2() {
-        int left = 1;
+    public void whenMax10To2Then10() {
+        int left = 10;
         int right = 2;
-        int result = Max.max(left, right);
-        int expected = 2;
-        Assert.assertEquals(result, expected);
+        Max max = new Max();
+        int  sravn = max.max(left, right);
+        int expected = 10;
+        Assert.assertEquals(sravn, expected);
     }
 
     @Test
-    public void whenMax3To2Then3() {
-        int left = 3;
+    public void whenMax10To2To12Then12() {
+        int left = 10;
         int right = 2;
-        int result = Max.max(left, right);
-        int expected = 3;
-        Assert.assertEquals(result, expected);
+        int center = 12;
+        Max max = new Max();
+        int  sravn = max.max(left, right, center);
+        int expected = 12;
+        Assert.assertEquals(sravn, expected);
     }
 
     @Test
-    public void whenMax2To2ThenEqual() {
-        int left = 2;
+    public void whenMax10To2To12To34Then34() {
+        int left = 10;
         int right = 2;
-        int result = Max.max(left, right);
-        int expected = 2;
-        Assert.assertEquals(result, expected);
+        int center = 12;
+        int botom = 34;
+        Max max = new Max();
+        int  sravn = max.max(left, right, center, botom);
+        int expected = 34;
+        Assert.assertEquals(sravn, expected);
     }
+
 }
