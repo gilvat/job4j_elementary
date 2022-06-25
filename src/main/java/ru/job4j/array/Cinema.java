@@ -6,8 +6,8 @@ public class Cinema {
     public static Place checkEmptyPlace(Place[][] places) {
         for (int i = 0; i < places.length; i++) {
             for (int j = 0; j < places[i].length; j++) {
-                if (i == 0) { //первый ряд
-                    if (places[0][0] == null && places[0][1] == null && places[1][0] == null) {   //*левый верхний угол
+                if (i == 0) {
+                    if (places[0][0] == null && places[0][1] == null && places[1][0] == null) {
                         return places[i][j];
                     }
                     if [places[0][j] == null && j < places[i].length && j > 0 && places[0][j - 1] == null && places[0][j + 1] == null && places[1][j] == null){

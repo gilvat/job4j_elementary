@@ -12,8 +12,7 @@ public class RightShift {
         return nums;
     }
 
-    // метод делает сдвиг с шагом 1
-    private static void shift(int[] nums) {
+       private static void shift(int[] nums) {
 
     }
 
