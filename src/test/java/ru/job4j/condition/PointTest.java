@@ -43,7 +43,7 @@ public class PointTest {
     }
 
     @Test
-    public void when0012To10110Then7() {
+    public void when0012To10110Then19dot64() {
         double expected = 19.64;
         Point a = new Point(0, 0, 12);
         Point b = new Point(10, 11, 0);
